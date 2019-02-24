@@ -25,6 +25,7 @@ runtime_config:  # Optional
 handlers:
   - url: /.*
     script: this field is required, but ignored
+    secure: always
 
 manual_scaling:
   instances: 1
